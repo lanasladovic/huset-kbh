@@ -1,0 +1,152 @@
+body, html {
+    margin: 0;
+
+}
+
+ul li a{
+    font-family:'Montserrat', sans-serif;
+}
+
+
+
+
+.nav {
+    width:  100%;
+    /*background-color:  #ff0000; rgba(255,0,0,0.9)*/
+    background: #fff;
+    opacity: .8;
+    height: 70px;
+    color: #222;
+    border-bottom: 10px;
+
+}
+
+.nav .logo {
+    float: left;
+    height: 40px;
+    padding: 15px 30px;
+    font-size: 1.4em;
+    line-height: 40px;
+}
+
+.nav > ul {
+    margin:0;
+    padding: 0;
+    float: left;
+    list-style-type: none;
+
+}
+
+.nav > ul > li {
+    float: left;
+}
+
+.item {
+   display: inline-block;
+    padding: 15px 20px;
+    height: 40px;
+    line-height: 40px;
+    color: #222;
+    text-decoration: none;
+}
+
+.item:hover {
+    background-color: rgba(255,0,0,0.9);
+}
+
+.cont {
+    position: absolute;
+    top:70px;
+    overflow: hidden;
+    background-color: #ff0000;
+    max-height: 0;
+}
+
+.cont a {
+    color: #222;
+    text-decoration: none;
+
+}
+
+.cont a:hover {
+    text-decoration: underline;
+}
+
+.sub {
+    padding: 20px;
+}
+
+.sub ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.sub ul li a {
+    display: inline;
+    padding: 5px 0;
+
+}
+
+.item:focus {
+    background-color: #ff0000;
+
+}
+
+.item:focus ~ .cont {
+    max-height: 400px;
+    transition: max-height 0.4s ease-in;
+}
+
+
+
+#mov {
+    width: 250px;
+    height: auto;
+    border: 1px;
+    padding: 1.7em;
+    border-color: #151e5b;
+    border-radius: 10%;
+    float: left;
+    padding: 5%;
+
+
+}
+
+#fod {
+    width: 250px;
+    height: auto;
+    border: 1px solid #000;
+    padding: 1.5em;
+    margin: 10px;
+    border-color: #151e5b;
+    border-radius: 111%;
+    float: left;
+    padding: 5%;
+}
+
+
+.descript {
+    float: left;
+}
+
+
+
+.kaj img {
+    width: auto;
+    height: 150px;
+
+}
+
+/* media q */
+
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: lightblue;
+    }
+}
+
+
+
+
